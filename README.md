@@ -42,7 +42,7 @@ The **AUC of F(N)** across all iterations provides a single summary score of ove
 ## Installation
 
 ```bash
-git clone https://github.com/Dongjin-Du/prob\_al\_metric.git
+git clone https://github.com/Dongjin-Du/prob_al_metric.git
 cd prob\\\_al\\\_metric
 pip install -r requirements.txt
 ```
