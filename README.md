@@ -24,7 +24,7 @@ This package introduces a distribution-aware metric that addresses both limitati
 At each query iteration N, the metric F(N) estimates the **probability that the active learning method outperforms the baseline**:
 
 ```
-$$F(N) \approx \frac{1}{R_{AL} \times R_{BL}} \sum_{i=1}^{R_{AL}} \sum_{j=1}^{R_{BL}} \mathbf{1}\left( f_i(AL, N) \geq f_j(BL, N) \right)$$
+F(N) ≈ (1 / R_AL × R_BL) × Σ_i Σ_j 1( f_i(AL, N) ≥ f_j(BL, N) )
 ```
 
 where R\_AL and R\_BL are the number of independent trials for each method, and f\_i, f\_j are the observed performance values.
